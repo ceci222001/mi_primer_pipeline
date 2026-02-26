@@ -26,8 +26,6 @@ describe('Suite de Pruebas de Calidad de Software', () => {
       expect(result).toBe(0);
     });
 
-
-    // 🔹 PRUEBA EXTRA 3
     // Verifica que si el precio es 0,
     // el resultado sea 0.
     // Esto evita cálculos incorrectos.
