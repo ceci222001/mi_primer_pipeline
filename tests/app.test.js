@@ -5,7 +5,7 @@ const { calculateValue } = require('../src/logic');
 describe('Suite de Pruebas de Calidad de Software', () => {
 
   describe('Pruebas Unitarias - Lógica de Inventario', () => {
-    test('Debe calcular correctamente el valor total (10 * 5 = 50ooo)', () => {
+    test('Debe calcular correctamente el valor total (10 * 5 = 50)', () => {
       const result = calculateValue(10, 5);
       expect(result).toBe(50);
     });
